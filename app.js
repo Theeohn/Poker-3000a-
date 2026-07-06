@@ -305,7 +305,7 @@
   function onKnob1(dir) { "ram";
     if (dir) {
       if (gameState === STATES.TITLE) {
-        cursor = (cursor + dir + 2) % 2;
+        cursor = E.clip(cursor + dir, 0, 1);
       } else if (gameState === STATES.BET) {
         cursor = E.clip(cursor + dir, 0, 1);
       } else if (gameState === STATES.DRAW) {
