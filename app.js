@@ -197,7 +197,6 @@
   }
 
   // Suit vector art - each built from filled circles + a polygon point/stem,
-  // centered on (cx, cy) with "radius" r. Title screen decoration only.
   function drawHeart(cx, cy, r) {
     h.fillCircle(cx - r * 0.5, cy - r * 0.3, r * 0.5);
     h.fillCircle(cx + r * 0.5, cy - r * 0.3, r * 0.5);
@@ -224,10 +223,10 @@
 
   function drawTitleScreen() {
     h.setColor(2);
-    drawSpade(65, 85, 24.2);
-    drawHeart(415, 85, 24.2);
-    drawDiamond(65, 235, 24.2);
-    drawClub(415, 235, 24.2);
+    drawSpade(65, 85, 25);
+    drawHeart(415, 85, 25);
+    drawDiamond(65, 235, 25);
+    drawClub(415, 235, 25);
     h.setColor(3).setFontMonofonto36().setFontAlign(0, 0).drawString('POKER', 240, 95);
     for (let i = 0; i < 2; i++) {
       let y = 175 + i * 50;
