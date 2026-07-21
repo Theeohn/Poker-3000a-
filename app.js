@@ -1,4 +1,9 @@
-// Poker (Pip-Boy holotape)
+// =============================================================================
+//  Name: Radroach Races
+//  Author: Theeohn Megistus
+//  License: MIT
+//  Repository: https://github.com/Theeohn/Poker-3000a
+// =============================================================================
 // 5 Card Draw / 7 Card Draw, single player vs. dealer.
 (function() {
   const C = {
