@@ -389,7 +389,7 @@
   start();
 
   return {
-    id: 'Poker',
+    id: 'POKER',
     notDefault: true,
     fullscreen: true,
     remove: remove,
